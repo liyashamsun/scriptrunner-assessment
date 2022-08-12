@@ -23,5 +23,3 @@ UpdateValidationResult updateValidationResult = issueService.validateUpdate(logg
 if (updateValidationResult.isValid()){
     IssueResult updateResult = issueService.update(loggedInUser, updateValidationResult);
 }
-
-
