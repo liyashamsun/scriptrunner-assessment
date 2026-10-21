@@ -20,6 +20,10 @@ This repo contains:
 Related files:
 - [copilot instructions](README.md)
 
+Workflows:
+When changing the repo use one of the following workflows as a basis.
+- [feature prompt](markdown/macro.md)
+
 ## Integration tests
 
 `npm run test` runs the integration layer via `@vscode/test-electron`. Instead of
