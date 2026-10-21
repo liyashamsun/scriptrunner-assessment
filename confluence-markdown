@@ -1,25 +1,30 @@
-# Bug Report: Macro Update Issue
+# Cam Automat Editor VS Code extension
 
-## Description
-The customer reported a bug affecting their
-Service Desk agents.
+This repo contains all that is needed to build a VS Code extension for a graphical cam automat editor.
 
-## Impact
-- Agents are heavily impacted.
-- The issue affects daily operations.
-- A fix is needed as soon as possible.
+The graphical cam automat editor provides a reactive graphical view of a cam automat configuration file.
 
-## Current Status
-**Status:** Under Investigation
+The extension can open an *.axisfeature configuration file and present it in a graphical editor inside VS Code.
 
-**Priority:** High
+## Rough idea
 
-## Next Steps
-1. Investigate the reported issue.
-2. Identify the root cause.
-3. Provide an estimated timeline for the fix.
+This repo contains:
 
-> Note: The customer has requested an update
-> regarding the expected resolution timeline.
+- docs:
+- utils:
+  - emsdk (sdk for webassembly build)
+  - Firmware sources and wrappers for a wasm to calculate compensation gear polynomials
+- tests:
+- samples:
 
-[View Bug Ticket](https://example.com)
+Related files:
+- [copilot instructions](README.md)
+
+## Integration tests
+
+`npm run test` runs the integration layer via `@vscode/test-electron`. Instead of
+downloading a separate VS Code build (~300MB), it reuses your locally installed
+VS Code, auto-detected from the usual Windows install locations. If your install
+is elsewhere (or you want to target Insiders/a portable build), set
+`VSCODE_TEST_EXE` to the `Code.exe` path before running the tests. If no local
+install is found, the runner fails fast and does not download VS Code.
