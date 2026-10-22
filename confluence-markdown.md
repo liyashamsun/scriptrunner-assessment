@@ -23,7 +23,7 @@ Related files:
 
 Workflows:
 When changing the repo use one of the following workflows as a basis.
-- [feature prompt](Markdown/macro.md)
+- [feature prompt](https://github.com/liyashamsun/scriptrunner-assessment/raw/refs/heads/main/README.md)
 
 ## Integration tests
 
