@@ -7,7 +7,7 @@ The graphical cam automat editor provides a reactive graphical view of a cam aut
 The extension can open an *.axisfeature configuration file and present it in a graphical editor inside VS Code.
 
 ## Rough idea
-<img src="https://raw.githubusercontent.com/liyashamsun/scriptrunner-assessment/refs/heads/main/Markdown/strawberry-svgrepo-com.svg" alt="Rough idea - labeler" width="200" >
+<img src="Markdown/strawberry-svgrepo-com.svg" alt="Rough idea - labeler" width="200" >
 
 This repo contains:
 
